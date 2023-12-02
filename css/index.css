@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Pacifico", cursive;
+}
+
+.greeting {
+  background-color: #000;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.art {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 12px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 48px;
+  margin-top: 16px;
+  text-shadow: 1px 1px 22px rgba(255, 255, 255, 0.7);
+}
+
+.link2 {
+  text-decoration: none;
+  margin-top: 8px;
+  color: white;
+}
+
+.marko {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 22px;
+}
