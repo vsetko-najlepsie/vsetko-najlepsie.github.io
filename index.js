@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     var spanElement = document.querySelector(".greeting a");
     spanElement.classList.add("visible");
-  }, 1000);
+  }, 100);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     var spanElement = document.querySelector(".greeting span");
     spanElement.classList.add("visible");
-  }, 5000);
+  }, 100);
 });
